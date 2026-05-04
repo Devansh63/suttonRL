@@ -15,8 +15,14 @@ TD learning
 - Q-Learning (ch. 6)
 - comparison of both on CliffWalking
 
+monte carlo
+- first-visit MC control on Blackjack (ch. 5)
+
 deep RL
 - DQN on CartPole (replay buffer + target network)
+
+policy gradients
+- REINFORCE on CartPole (ch. 13)
 
 how to run
 
@@ -29,10 +35,12 @@ python dynamic_programming/value_iteration.py
 python td_learning/q_learning.py
 python td_learning/sarsa.py
 python td_learning/compare.py
+python monte_carlo/mc_control.py
 python deep_rl/dqn.py
+python policy_gradient/reinforce.py
 
 each script saves a plot to its own folder.
 
 notes
 
-still working through the book so more algorithms coming. planning to add monte carlo methods and policy gradients next.
+still going through the book. might add n-step TD and actor-critic at some point.
